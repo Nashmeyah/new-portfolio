@@ -29,7 +29,7 @@ li a
 .header{
     display: flex;
     flex-direction: column;
-    
+    color: #FFE600;
 }
 
 .center-img{
@@ -39,3 +39,6 @@ li a
 img{
     float: right;
 }
+
+
+
