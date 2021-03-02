@@ -6,7 +6,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    background-color: #10132B
+    background-color: #10132B;
 }
 ul 
 {
@@ -30,6 +30,10 @@ li a
     padding: 14px 16px;
     text-decoration: none;
 }
+.landing_page{
+    background-image: url(../img/logo.png);
+}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -40,9 +44,6 @@ li a
     letter-spacing: 15px;
 }
 
-/* .logo_img{
-    position: absolute;
-} */
 img{
     float: right;
 }
