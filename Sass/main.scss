@@ -39,6 +39,7 @@ ul
     flex-direction: column;
     color: $navLinkColor;
     font-family: 'Cinzel', serif;
+    font-weight: lighter;
     font-size: 4.5vw;
     letter-spacing: 15px;
     align-items: center;
@@ -46,7 +47,8 @@ ul
 
     h2{
         color: $mainFontColor;
-        
+        font-weight: lighter;
+        font-size: 2.5vw;
     }
 }
 
