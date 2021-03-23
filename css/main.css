@@ -36,12 +36,6 @@ ul li a {
   text-decoration: none;
 }
 
-.landing_page {
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,9 +49,15 @@ ul li a {
       -ms-flex-align: center;
           align-items: center;
   font-family: 'Cinzel', serif;
-  font-size: 55px;
+  font-size: 4.5vw;
   letter-spacing: 15px;
-  padding-top: 400px;
+  align-items: center;
+}
+
+.landing_page {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {
