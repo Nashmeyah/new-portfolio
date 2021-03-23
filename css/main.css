@@ -21,11 +21,11 @@ ul {
   overflow: hidden;
 }
 
-li {
+ul li {
   float: right;
 }
 
-li a {
+ul li a {
   font-family: 'Cinzel', serif;
   display: block;
   color: #FFE600;
