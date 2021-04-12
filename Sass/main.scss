@@ -73,6 +73,12 @@ img{
 .contentSection{
     display: flex;
     flex-direction: column;
+
+    .projects{
+        h2{
+            font-family: 'Cinzel', serif;
+        }
+    }
 }
 
 

@@ -88,3 +88,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.contentSection .projects h2 {
+  font-family: 'Cinzel', serif;
+}
