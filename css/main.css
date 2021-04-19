@@ -97,13 +97,29 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 25%;
+  padding: 0 10px;
 }
 
-.contentSection .projects .projectsSection .card_container {
+.contentSection .projects .card_container {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.contentSection .projects .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.contentSection .projects .card-body {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
 }
 
 .contact h2 {
