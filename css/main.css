@@ -122,6 +122,10 @@ img {
   background-color: #171C4B;
 }
 
+.contentSection .projects .card-title {
+  font-family: 'Cinzel', serif;
+}
+
 .contact h2 {
   font-family: 'Cinzel', serif;
 }
