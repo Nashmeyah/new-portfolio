@@ -75,8 +75,9 @@ img{
     flex-direction: column;
 
     .projects{
-        h2{
+        .projectsTitle{
             font-family: 'Cinzel', serif;
+            color: $mainFontColor;
         }
 
         .projectsContainer{
