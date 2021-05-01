@@ -93,7 +93,7 @@ img {
   font-family: 'Cinzel', serif;
 }
 
-.contentSection .projects .projectsSection {
+.contentSection .projects .projectsContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
