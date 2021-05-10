@@ -130,3 +130,7 @@ img {
 .contact h2 {
   font-family: 'Cinzel', serif;
 }
+
+.contact .info img {
+  height: 200px;
+}
