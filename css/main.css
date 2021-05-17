@@ -137,7 +137,7 @@ img {
   color: #FFE600;
 }
 
-.contact .logo_links {
+.contact .logo_links a {
   height: 45px;
   width: 45px;
 }
