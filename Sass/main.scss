@@ -86,7 +86,11 @@ img{
 
             .card_container{
                 display: flex;
-                padding: 5px;
+                
+
+                .card{
+                    padding: 32px 5px;
+                }
             }
         }
 
