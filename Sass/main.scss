@@ -83,11 +83,14 @@ img{
         .projectsContainer{
             padding: 0 20px;
             align-items: center;
+
+            .card_container{
+                display: flex;
+                padding: 5px;
+            }
         }
 
-        .card_container{
-            display: flex;
-        }
+        
 
         .column {
             float: left;
