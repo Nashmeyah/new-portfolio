@@ -81,14 +81,15 @@ img{
         }
 
         .projectsContainer{
-            display: flex;
+            
 
             width: 25%;
             padding: 0 10px;
         }
 
         .card_container{
-            flex-direction: row;
+            display: flex;
+            
 
         }
 
