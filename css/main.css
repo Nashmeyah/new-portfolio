@@ -36,7 +36,13 @@ ul li a {
   text-decoration: none;
 }
 
-.header {
+.landing_page {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing_page .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,24 +61,18 @@ ul li a {
   height: 900px;
 }
 
-.header h2 {
+.landing_page .header h2 {
   color: #E5E5E5;
   font-weight: lighter;
   font-size: 2.5vw;
 }
 
-.header .portfolio_links {
+.landing_page .header .portfolio_links {
   font-size: 1.5vw;
 }
 
-.header .portfolio_links li a {
+.landing_page .header .portfolio_links li a {
   color: #E5E5E5;
-}
-
-.landing_page {
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 img {
