@@ -75,10 +75,6 @@ ul li a {
   color: #E5E5E5;
 }
 
-img {
-  float: right;
-}
-
 .contentSection {
   display: -webkit-box;
   display: -ms-flexbox;
