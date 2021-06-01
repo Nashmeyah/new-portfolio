@@ -103,6 +103,7 @@ ul li a {
 
 .contentSection .projects .card_wrapper .card {
   padding: 32px 5px;
+  position: relative;
 }
 
 .contentSection .projects .column {
