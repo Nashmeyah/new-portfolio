@@ -90,20 +90,17 @@ ul li a {
   color: #E5E5E5;
 }
 
-.contentSection .projects .projectsContainer {
+.contentSection .projects .card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.contentSection .projects .projectsContainer .card_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.contentSection .projects .projectsContainer .card_container .card {
+.contentSection .projects .card_container .card {
   padding: 32px 5px;
 }
 

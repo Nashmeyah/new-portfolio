@@ -76,18 +76,16 @@ ul
             color: $mainFontColor;
         }
 
-        .projectsContainer{
-            padding: 0 20px;
-            align-items: center;
-
             .card_container{
                 display: flex;
+                padding: 0 20px;
+                align-items: center;
                 
 
                 .card{
                     padding: 32px 5px;
                 }
-            }
+            
         }
 
         
