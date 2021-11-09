@@ -10,7 +10,10 @@ body
     flex-direction: column;
     background-color: $backgroundColor;
 }
-
+nav
+{
+    position: relative;
+}
 ul 
 {
     list-style-type: none;
