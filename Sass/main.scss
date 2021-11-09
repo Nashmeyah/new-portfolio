@@ -10,10 +10,6 @@ body
     flex-direction: column;
     background-color: $backgroundColor;
 }
-nav
-{
-    position: relative;
-}
 ul 
 {
     list-style-type: none;
@@ -52,7 +48,7 @@ ul
         letter-spacing: 15px;
         justify-content: center;
         align-items: center;
-        height: 900px;
+        height: 100vh;
     
         h2{
             color: $mainFontColor;
