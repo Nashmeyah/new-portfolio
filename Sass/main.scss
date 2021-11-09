@@ -10,6 +10,7 @@ body
     flex-direction: column;
     background-color: $backgroundColor;
 }
+
 ul 
 {
     list-style-type: none;
@@ -46,8 +47,8 @@ ul
         font-weight: lighter;
         font-size: 4.5vw;
         letter-spacing: 15px;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         height: 900px;
     
         h2{
