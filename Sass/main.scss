@@ -34,10 +34,14 @@ ul
 }
 
 .landing_page{
-    background-image: url(../img/logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    // background-image: url(../img/logo.png);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    img{
+        height: 110vh;
+        width: 80vw;
+        position: absolute;
+    }
     .header{
         display: flex;
         flex-direction: column;

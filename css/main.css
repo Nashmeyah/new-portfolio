@@ -36,10 +36,10 @@ ul li a {
   text-decoration: none;
 }
 
-.landing_page {
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.landing_page img {
+  height: 110vh;
+  width: 80vw;
+  position: absolute;
 }
 
 .landing_page .header {
