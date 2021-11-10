@@ -32,7 +32,7 @@ ul li a {
   display: block;
   color: #FFE600;
   text-align: center;
-  padding: 14px 16px;
+  padding: 30px 25px;
   text-decoration: none;
 }
 
@@ -77,6 +77,9 @@ ul li a {
 
 .landing_page .header .portfolio_links li a {
   color: #E5E5E5;
+  background-color: #171C4B;
+  padding: 15px;
+  margin: 15px;
 }
 
 .contentSection {
@@ -121,6 +124,7 @@ ul li a {
   padding: 16px;
   text-align: center;
   background-color: #171C4B;
+  border-radius: 15px;
 }
 
 .contentSection .projects .card-title {
