@@ -40,6 +40,7 @@ ul li a {
   height: 110vh;
   width: 80vw;
   position: absolute;
+  overflow: hidden;
 }
 
 .landing_page .header {
