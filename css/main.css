@@ -78,8 +78,11 @@ ul li a {
 .landing_page .header .portfolio_links li a {
   color: #E5E5E5;
   background-color: #171C4B;
+  border-radius: 20px;
   padding: 15px;
   margin: 15px;
+  position: relative;
+  overflow: hidden;
 }
 
 .contentSection {
