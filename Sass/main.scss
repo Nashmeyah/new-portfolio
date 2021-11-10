@@ -33,13 +33,14 @@ ul
         text-decoration: none;
     }
 }
-
-.landing_page{
-    
+.body_background_img{
     background-image: url(../img/logo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: calc(100% + 40vh) calc(100% + 32vw) ; 
+    background-position: calc(100% + 40vh) calc(100% - 15vw) ; 
+}
+
+.landing_page{ 
 
     .header{
         display: flex;
