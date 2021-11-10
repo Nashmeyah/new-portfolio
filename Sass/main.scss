@@ -37,7 +37,8 @@ ul
 .landing_page{
     background-image: url(../img/logo.png);
     background-size: cover;
-    background-position: calc(100% + 42vh) calc(100% - 65vw) ; 
+    background-repeat: no-repeat;
+    background-position: calc(100% + 40vh) calc(100% + 32vw) ; 
 
     .header{
         display: flex;
