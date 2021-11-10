@@ -35,15 +35,10 @@ ul
 }
 
 .landing_page{
-    // background-image: url(../img/logo.png);
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    img{
-        height: 110vh;
-        width: 80vw;
-        position: absolute;
-        overflow: hidden;
-    }
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    background-position: calc(100% + 42vh) calc(100% - 65vw) ; 
+
     .header{
         display: flex;
         flex-direction: column;
