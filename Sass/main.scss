@@ -82,6 +82,7 @@ ul
 .contentSection{
     display: flex;
     flex-direction: column;
+    padding: 0 50px;
 
     .projects{
         .projectsTitle{
@@ -90,7 +91,6 @@ ul
         }
             .card_wrapper{
                 display: flex;
-                padding: 0 20px;
                 align-items: center;
                 color: $mainFontColor;
                 
