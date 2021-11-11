@@ -99,10 +99,17 @@ ul
 
                     .card-body {
                         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-                        padding: 16px;
                         text-align: center;
                         background-color: $portfolioLinkColor;
                         border-radius: 15px;
+                        .card-img-top{
+                            height: 270px;
+                            
+                        }
+                        a{
+                            color: $mainFontColor;
+                            text-decoration: none;
+                        }
                       }
             
                       .card-title{

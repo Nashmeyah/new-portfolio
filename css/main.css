@@ -115,10 +115,18 @@ ul li a {
 .contentSection .projects .card_wrapper .card .card-body {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
   text-align: center;
   background-color: #171C4B;
   border-radius: 15px;
+}
+
+.contentSection .projects .card_wrapper .card .card-body .card-img-top {
+  height: 270px;
+}
+
+.contentSection .projects .card_wrapper .card .card-body a {
+  color: #E5E5E5;
+  text-decoration: none;
 }
 
 .contentSection .projects .card_wrapper .card .card-title {
