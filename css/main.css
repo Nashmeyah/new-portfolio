@@ -137,8 +137,24 @@ ul li a {
   font-family: 'Cinzel', serif;
 }
 
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 50px;
+}
+
+.contact section {
+  border: 2px solid red;
+}
+
 .contact h2 {
   font-family: 'Cinzel', serif;
+  color: #FFE600;
 }
 
 .contact .info img {
