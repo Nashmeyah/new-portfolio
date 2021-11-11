@@ -125,6 +125,7 @@ ul li a {
 
 .contentSection .projects .card_wrapper .card .card-body .card-img-top {
   height: 270px;
+  width: 270px;
 }
 
 .contentSection .projects .card_wrapper .card .card-body a {
