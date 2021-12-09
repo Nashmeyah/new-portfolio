@@ -150,6 +150,11 @@ ul
                     .card-text{
                         flex-grow: 1;
                     }
+
+                    .card-title{
+                        font-family: 'Cinzel', serif;
+                        color: $mainFontColor;
+                      }
                   }
               }
               
@@ -208,49 +213,7 @@ ul
               }
               input:nth-of-type(5):checked ~ main#carousel {
                 --position: 5;
-              }
-              
-            
-            .card_wrapper{
-                display: flex;
-                color: $mainFontColor;
-                
-
-                .card{
-                    flex-direction: column;
-                    width: 100%;
-
-                    .card-body {
-                        
-                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-                        text-align: center;
-                        background-color: $portfolioLinkColor;
-                        border-radius: 15px;
-
-
-                        .card-img-top{
-                            height: 270px;
-                            width: 100%;
-                        }
-                        a{
-                            color: $mainFontColor;
-                            text-decoration: none;
-                            padding: 5px;
-                        }
-
-                        .card-text{
-                            flex-grow: 1;
-                        }
-                      }
-            
-                      .card-title{
-                        font-family: 'Cinzel', serif;
-                      }
-                }
-            
-        }
-
-        
+              }        
     }
 
 
