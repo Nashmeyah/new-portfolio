@@ -229,6 +229,31 @@ ul
 
     section{ 
         border: 2px solid red;
+
+        .contact_container{
+            display: flex;
+            width: calc(100% - 10vw);
+            justify-content: center;
+            border: 2px dotted yellow;
+
+            .contactInfo{
+                border: 2px dashed green;
+
+                .info{
+                    display: block;
+                    color: $mainFontColor;
+
+                    li{
+                        list-style: none;
+                    }
+                    
+                }
+            }
+        }
+
+        form{
+            float: right;
+        }
     }
     h2{
         font-family: 'Cinzel', serif;

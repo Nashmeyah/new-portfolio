@@ -289,6 +289,34 @@ ul li a {
   border: 2px solid red;
 }
 
+.contact section .contact_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(100% - 10vw);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px dotted yellow;
+}
+
+.contact section .contact_container .contactInfo {
+  border: 2px dashed green;
+}
+
+.contact section .contact_container .contactInfo .info {
+  display: block;
+  color: #E5E5E5;
+}
+
+.contact section .contact_container .contactInfo .info li {
+  list-style: none;
+}
+
+.contact section form {
+  float: right;
+}
+
 .contact h2 {
   font-family: 'Cinzel', serif;
   color: #FFE600;
