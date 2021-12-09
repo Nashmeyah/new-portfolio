@@ -126,7 +126,7 @@ ul li a {
   -ms-grid-column: 1;
   -ms-grid-column-span: 7;
   grid-column: 1 / 8;
-  width: 100vw;
+  width: calc(100% - 10vw);
   height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,6 +150,7 @@ ul li a {
 
 .contentSection .projects div.item {
   position: absolute;
+  text-align: center;
   width: 375px;
   height: 475px;
   border-radius: 15px;
@@ -160,10 +161,6 @@ ul li a {
   -webkit-transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
           transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
   z-index: calc((var(--position) - var(--abs)));
-}
-
-.contentSection .projects div.item .card-body {
-  text-align: center;
 }
 
 .contentSection .projects div.item .card-body .card-img-top {
