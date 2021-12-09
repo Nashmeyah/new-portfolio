@@ -185,6 +185,8 @@ ul li a {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  font-family: 'Quattrocento Sans', serif;
+  color: #E5E5E5;
 }
 
 .contentSection .projects div.item .card-body .card-title {
