@@ -325,15 +325,5 @@ ul li a {
 .contact h2 {
   font-family: 'Cinzel', serif;
   color: #FFE600;
-}
-
-.contact .info img {
-  height: 45px;
-  width: 45px;
-  color: #FFE600;
-}
-
-.contact .logo_links a {
-  height: 45px;
-  width: 45px;
+  text-align: center;
 }
