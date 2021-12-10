@@ -315,6 +315,11 @@ ul li a {
 
 .contact section form {
   float: right;
+  color: #E5E5E5;
+}
+
+.contact section form .actions input {
+  color: #FFE600;
 }
 
 .contact h2 {

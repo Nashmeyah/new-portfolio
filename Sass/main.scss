@@ -251,8 +251,13 @@ ul
             }
         }
 
-        form{
+        form {
             float: right;
+            color: $mainFontColor;
+
+            .actions input{
+                color: $navLinkColor;
+            }
         }
     }
     h2{
